@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2",
+    "ws": "^7.4.6"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "name": "websocket-chat",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artiss90/WebSocket-Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artiss90/WebSocket-Chat/issues"
+  },
+  "homepage": "https://github.com/Artiss90/WebSocket-Chat#readme"
+}
